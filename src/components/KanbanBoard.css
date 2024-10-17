@@ -1,0 +1,57 @@
+.kanban-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .kanban-column {
+    flex: 1;
+    background-color:transparent;
+    border-radius: 8px;
+    padding: 16px;
+    min-width: 250px;
+    max-width: 400px;
+  }
+  
+  .kanban-column-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .kanban-card {
+    margin-bottom: 16px;
+  }
+  
+  .kanban-column:hover {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kanban-column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .kanban-column-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .kanban-add-card {
+    background-color: transparent;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kanban-add-card:hover {
+    background-color: #0056b3;
+  }
+  

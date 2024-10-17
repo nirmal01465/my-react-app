@@ -1,0 +1,32 @@
+.grouping-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.grouping-selector label {
+  color: lightgrey;
+  font-size: 16px; 
+  font-weight: 600;
+  margin-right: 16px;
+}
+
+.grouping-selector select {
+  background-color: white; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  padding: 8px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  font-size: 16px; 
+}
+
+.grouping-selector select:hover {
+  background-color: white;
+}
+
+.grouping-selector select:focus {
+  outline: none; 
+  box-shadow: 0 0 0 2px #007bff; 
+}

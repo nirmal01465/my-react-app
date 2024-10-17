@@ -1,0 +1,82 @@
+.app {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f6fa;
+}
+
+.header {
+  background-color: #f5f5f5;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-left h1 {
+  font-size: 1.5rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.grouping-selector,
+.sorting-selector {
+  margin-right: 20px;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.kanban-column {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 25%;
+}
+
+.card {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+}
+
+.card-body span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: gray;
+}

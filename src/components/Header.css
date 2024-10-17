@@ -1,0 +1,96 @@
+.header-wrapper {
+  width: 100%;
+  position: relative; 
+}
+.header-plus-menu {
+  justify-content: space-between;
+  align-items: center;
+}
+.header-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.display-button {
+  background-color: transparent;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.display-button .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.dropdown-box {
+  position: absolute;
+  top: 50px; 
+  left: 20px;
+  background-color: #f7fafb;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 35px 60px;
+  max-width: 300px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.dropdown-box.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-box.close {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column; 
+  gap: 16px; 
+}
+
+.tickets-display {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.ticket-column {
+  width: 24%;
+  background-color: #f4f6fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 8px;
+}
